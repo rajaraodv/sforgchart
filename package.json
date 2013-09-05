@@ -1,0 +1,34 @@
+{
+  "name": "sforgchart",
+  "description": "Uses Salesforce Chatter APIs to create org chart and provides various related APIs ",
+  "tags": [
+    "salesforce",
+    "SOQL",
+    "chatter",
+    "OAuth"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Raja Rao DV",
+    "email": "rajaraodv100@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rajaraodv/sforgchart.git"
+  },
+  "bugs": {
+    "url": "http://github.com/rajaraodv/sforgchart/issues"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "request": "*"
+  },
+  "scripts": {
+    "test": "node tests/run.js"
+  },
+  "readme": "Install sforgchart and call various APIs",
+  "readmeFilename": "README.md"
+}
